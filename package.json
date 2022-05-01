@@ -1,10 +1,17 @@
 {
-  "name": "module-federation-bundle-cleaner",
+  "name": "@re6exp/module-federation-bundle-cleaner",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
   "engines": {
     "node": ">= 14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re6exp/module-federation-bundle-cleaner"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/re6exp"
   },
   "files": [
     "lib/",
