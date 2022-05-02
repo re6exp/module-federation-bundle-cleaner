@@ -1,28 +1,31 @@
 {
-  "name": "@re6exp/module-federation-bundle-cleaner",
+  "name": "module-federation-bundle-cleaner",
   "version": "1.0.1",
-  "description": "",
+  "description": "A webpack plugin to clean up the production build of micro-frontend project of unnecessary resources to minimize the result bundle.",
   "main": "lib/index.js",
   "engines": {
     "node": ">= 14.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/re6exp/module-federation-bundle-cleaner.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/re6exp"
-  },
   "files": [
-    "lib/",
+    "lib/index.js",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "module",
+    "federation",
+    "production",
+    "bundle",
+    "exclude",
+    "duplication",
+    "twice",
+    "ready",
+    "clean-up"
+  ],
+  "author": "Anton Brok-Volchansky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/re6exp/module-federation-bundle-cleaner/issues"
