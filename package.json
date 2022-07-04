@@ -1,6 +1,6 @@
 {
   "name": "module-federation-bundle-cleaner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A webpack plugin to clean up the production build of micro-frontend project of unnecessary resources to minimize the result bundle.",
   "main": "lib/index.js",
   "engines": {
