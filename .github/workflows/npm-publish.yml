@@ -10,9 +10,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - run: git config --global user.name 'Anton'
-      - run: git config --global user.email 're6exp@gmail.com'
-      - run: npm version patch -m "[RELEASE] %s"
       - name: Publish if version has been updated
         uses: pascalgn/npm-publish-action@1.3.9
         with: # All of theses inputs are optional
